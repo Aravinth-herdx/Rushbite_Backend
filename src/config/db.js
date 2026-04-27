@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const connectDB = async () => {
-  const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/cafeteria_db';
+  const MONGO_URI =  'mongodb+srv://aravinthr465_db_user:fE69zGvRmEwVzddG@cluster0.vomef1e.mongodb.net/cafeteria_db';
   const MAX_RETRIES = 5;
   const RETRY_DELAY = 5000;
 
