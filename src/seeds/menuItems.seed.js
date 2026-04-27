@@ -158,7 +158,7 @@ function buildDocuments(startCount) {
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 async function main() {
-  const mongoUri = process.env.MONGO_URI || process.env.MONGODB_URI || process.env.DATABASE_URL;
+  const mongoUri = 'mongodb+srv://aravinthr465_db_user:fE69zGvRmEwVzddG@cluster0.vomef1e.mongodb.net/cafeteria_db';
   if (!mongoUri) {
     console.error('ERROR: No MongoDB URI found in .env (MONGO_URI / MONGODB_URI)');
     process.exit(1);

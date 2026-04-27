@@ -36,7 +36,7 @@ const Promotion  = require('../src/models/Promotion');
 const Notification = require('../src/models/Notification');
 const AuditLog   = require('../src/models/AuditLog');
 
-const MONGO_URI   = process.env.MONGO_URI || 'mongodb://localhost:27017/cafeteria_db';
+const MONGO_URI   = 'mongodb+srv://aravinthr465_db_user:fE69zGvRmEwVzddG@cluster0.vomef1e.mongodb.net/cafeteria_db';
 
 // ─── Fixed IDs (must match menuItems.seed.js) ─────────────────────────────────
 const FRANCHISE_ID = new mongoose.Types.ObjectId('69c5feac62ec8cd3444de6c5');
